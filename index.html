@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href = "styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="script.js"></script>
+    <title>Design Generator</title>
+</head>
+
+<header>
+    <h1>Design Generator</h1>
+    <h2>Create your own design in seconds.</h2>
+</header>
+
+<body>
+    <div class="design" id="design">
+        <p class="greeting" id="greeting">Happy New Year!</p>
+        <p class="signoff" id="signoff">- WAI</p>
+        <div class="client-image" id="client-image"></div>
+    </div>
+    <div class="WAI" id="WAI">
+    </div>
+    <output name="colornow" id="colornow">The current color is:</output>
+    <form>
+        <h3>Customise your design:</h3>
+        <label for="greeting-text-input">Greeting Text:</label>
+        <input type="text" id="greeting-text-input" name="greeting-text-input" maxlength="20" required onchange="changeGreetingText()">
+        <label for="signoff-input">Sign-Off:</label>
+        <input type="text" id="signoff-input" name="signoff-input" maxlength="15" required onchange="changeSignoff()">
+        <p>Popular Color Choices</p>
+        <input type="radio" id="brown" name="color" value="brown" required onchange="changeColor()">
+        <label for="brown">Brown</label>
+        <input type="radio" id="orange" name="color" value="orange" required onchange="changeColor()">
+        <label for="orange">Orange</label>
+        <input type="radio" id="pink" name="color" value="pink" required onchange="changeColor()">
+        <label for="pink">Pink</label>
+    </form>
+
+    <div class = "random">
+        <p>Need ideas?</p>
+        <button type="button" id="color-button" name="Random Color" value="Random Color" onclick="randomColor()" class="randomcolor">Random Color!</button>
+    </div>
+    
+
+    <div class = "rgb">
+        <p>Customise RGB</p>
+        <label for="red-input">Red</label>
+        <input type="number" id="red-input" name="red-input" min="0" max="255" value="0" onchange="rgbColor()">
+        <label for="green-input">Green</label>
+        <input type="number" id="green-input" name="green-input" min="0" max="255" value="0" onchange="rgbColor()">
+        <label for="blue-input">Blue</label>
+        <input type="number" id="blue-input" name="blue-input" min="0" max="255" value="0" onchange="rgbColor()">
+    </div>
+
+
+    <p>
+        <p>What else would you like to change?</p>
+    </p>
+</body>
+
+
+
+<footer>
+
+</footer>
+
+</html>

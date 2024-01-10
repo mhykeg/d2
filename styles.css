@@ -1,0 +1,99 @@
+* {
+    font-family: Poppins;
+    text-align: center;
+    background-color: #FFFDF7;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px;
+}
+
+.design {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(221,160,221);
+    margin: auto;
+}
+
+.WAI {
+    display: block;
+    background-color: coral;
+    width: 500px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.design p {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 200px;
+    height: 25px;
+    background-color:beige;
+}
+
+#signoff {
+    top: 225px;
+}
+
+#client-image {
+    position: absolute;
+    top: 275px;
+    left: 160px;
+    width: 180px;
+    height: 150px;
+    background-color:burlywood;
+}
+
+form {
+    border: 1px solid bisque;
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.random {
+    margin: 20px;
+    display: inline-flex;
+}
+
+.rgb {
+    font: 40px;
+    border: 5px dotted bisque;
+    width: 50%;
+    margin: auto;
+}
+
+button:hover {
+    color: goldenrod;
+    background-color: beige;
+    transition: 0.5s;
+}
+
+output {
+    font-style: oblique;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
